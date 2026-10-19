@@ -46,9 +46,9 @@ To add another mod, create its directory under `mods/`, add its projects to `Pla
 
 ## Upload to Steam Workshop
 
-1. Run `scripts/Package.ps1 -Mod refill-containers`. The uploader folder is `artifacts/workshop/refill-containers`, containing `content`, `preview.png` and `description.txt`. A versioned ZIP is also created in `artifacts`.
+1. Run `scripts/Package.ps1 -Mod refill-containers`. The uploader folder is `artifacts/workshop/refill-containers`, containing `content`, `preview.jpg` and `description.txt`. A versioned ZIP is also created in `artifacts`.
 2. With Steam running, launch `PlateUp_Data/ModUploader.exe` from the game installation.
-3. Select the uploader folder, which is the parent of `content`. Set the title to **Refill Containers**, select `preview.png`, and use the text from `description.txt`. Choose the **Tweaks** tag and **Private** visibility for the first upload.
+3. Select the uploader folder, which is the parent of `content`. Set the title to **Refill Containers**, select `preview.jpg`, and use the text from `description.txt`. Choose the **Tweaks** tag and **Private** visibility for the first upload.
 4. Subscribe to the private item, remove the local copy, restart the game and complete the [release checks](docs/TESTING.md). Change visibility to **Public** when those checks pass.
 5. Copy the uploader-generated `plateup_mod_metadata.json` into `mods/refill-containers/workshop/`. Reuse that item ID for updates. Increment the mod project's version, rebuild and upload to the existing item.
 

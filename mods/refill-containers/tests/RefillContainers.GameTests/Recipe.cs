@@ -58,4 +58,3 @@ namespace KitchenRefillContainers.GameTests
         }
     }
 }
-

@@ -1,4 +1,5 @@
 Generated with the built-in ImageGen tool.
+artwork.png is the PNG master; preview.jpg is the compressed Workshop upload image.
 
 Use case: illustration-story.
 Asset type: Steam Workshop cover image for a PlateUp! gameplay mod, landscape 16:9, 1600x900 or higher.
