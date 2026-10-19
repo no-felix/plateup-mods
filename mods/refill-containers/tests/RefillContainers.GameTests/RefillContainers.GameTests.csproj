@@ -1,0 +1,15 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <TargetFramework>net472</TargetFramework>
+    <AssemblyName>KitchenRefillContainers.GameTests</AssemblyName>
+    <AutomaticallyUseReferenceAssemblyPackages>false</AutomaticallyUseReferenceAssemblyPackages>
+    <FrameworkPathOverride>$(GameManagedDir)</FrameworkPathOverride>
+  </PropertyGroup>
+  <ItemGroup>
+    <ProjectReference Include="../../src/RefillContainers/RefillContainers.csproj" />
+    <Reference Include="Kitchen.Common;Kitchen.GameData;KitchenMode;KitchenMods;Unity.Entities;Unity.Collections;UnityEngine.CoreModule;Sirenix.Serialization">
+      <HintPath>$(GameManagedDir)\%(Identity).dll</HintPath>
+      <Private>false</Private>
+    </Reference>
+  </ItemGroup>
+</Project>

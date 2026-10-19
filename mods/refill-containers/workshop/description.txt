@@ -1,0 +1,13 @@
+Refill Containers
+
+Refill matching empty trays and pots with the normal grab action. Hold a full or partly full container and use it on an empty one: the food stays on the counter and the empty carrier returns to your hand.
+
+Works with cookies, brownies, cupcakes, flavoured sponge cakes, tacos, proofed doughnuts, lasagne and homemade ice cream mixtures. Pot recipes include beans, bamboo, broccoli, mashed potato, bolognese, roux, mushroom sauce, red sauce and drained spaghetti.
+
+Portions, flavours and toppings stay intact. Combining non-empty containers keeps the base game's behavior.
+
+Combiners can refill containers too. Remove the returned empty carrier to keep the line moving.
+
+No KitchenLib or Harmony dependency. No new items or custom saved components.
+
+Multiplayer and save/load compatibility have not yet been verified.

@@ -1,0 +1,63 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31903.59
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "mods", "mods", "{ED7DE66D-1FF1-BCCD-393E-2D4AFCA661A0}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "refill-containers", "refill-containers", "{7FEEFE54-1A53-73F6-3196-9F247C051ABE}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{417A156B-7071-2EC9-BB0E-CFF1FC466B01}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RefillContainers", "mods\refill-containers\src\RefillContainers\RefillContainers.csproj", "{8B512C3D-238E-4C63-84F4-9726B19CBBCF}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "tests", "tests", "{F0E02B70-F6F7-F5EE-E359-7938BC12C8CC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RefillContainers.GameTests", "mods\refill-containers\tests\RefillContainers.GameTests\RefillContainers.GameTests.csproj", "{9DE56B3C-494B-4BD8-A2C9-81FD20C7656D}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Debug|x64 = Debug|x64
+		Debug|x86 = Debug|x86
+		Release|Any CPU = Release|Any CPU
+		Release|x64 = Release|x64
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{8B512C3D-238E-4C63-84F4-9726B19CBBCF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8B512C3D-238E-4C63-84F4-9726B19CBBCF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8B512C3D-238E-4C63-84F4-9726B19CBBCF}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{8B512C3D-238E-4C63-84F4-9726B19CBBCF}.Debug|x64.Build.0 = Debug|Any CPU
+		{8B512C3D-238E-4C63-84F4-9726B19CBBCF}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{8B512C3D-238E-4C63-84F4-9726B19CBBCF}.Debug|x86.Build.0 = Debug|Any CPU
+		{8B512C3D-238E-4C63-84F4-9726B19CBBCF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8B512C3D-238E-4C63-84F4-9726B19CBBCF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8B512C3D-238E-4C63-84F4-9726B19CBBCF}.Release|x64.ActiveCfg = Release|Any CPU
+		{8B512C3D-238E-4C63-84F4-9726B19CBBCF}.Release|x64.Build.0 = Release|Any CPU
+		{8B512C3D-238E-4C63-84F4-9726B19CBBCF}.Release|x86.ActiveCfg = Release|Any CPU
+		{8B512C3D-238E-4C63-84F4-9726B19CBBCF}.Release|x86.Build.0 = Release|Any CPU
+		{9DE56B3C-494B-4BD8-A2C9-81FD20C7656D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9DE56B3C-494B-4BD8-A2C9-81FD20C7656D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9DE56B3C-494B-4BD8-A2C9-81FD20C7656D}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{9DE56B3C-494B-4BD8-A2C9-81FD20C7656D}.Debug|x64.Build.0 = Debug|Any CPU
+		{9DE56B3C-494B-4BD8-A2C9-81FD20C7656D}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{9DE56B3C-494B-4BD8-A2C9-81FD20C7656D}.Debug|x86.Build.0 = Debug|Any CPU
+		{9DE56B3C-494B-4BD8-A2C9-81FD20C7656D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9DE56B3C-494B-4BD8-A2C9-81FD20C7656D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9DE56B3C-494B-4BD8-A2C9-81FD20C7656D}.Release|x64.ActiveCfg = Release|Any CPU
+		{9DE56B3C-494B-4BD8-A2C9-81FD20C7656D}.Release|x64.Build.0 = Release|Any CPU
+		{9DE56B3C-494B-4BD8-A2C9-81FD20C7656D}.Release|x86.ActiveCfg = Release|Any CPU
+		{9DE56B3C-494B-4BD8-A2C9-81FD20C7656D}.Release|x86.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{7FEEFE54-1A53-73F6-3196-9F247C051ABE} = {ED7DE66D-1FF1-BCCD-393E-2D4AFCA661A0}
+		{417A156B-7071-2EC9-BB0E-CFF1FC466B01} = {7FEEFE54-1A53-73F6-3196-9F247C051ABE}
+		{8B512C3D-238E-4C63-84F4-9726B19CBBCF} = {417A156B-7071-2EC9-BB0E-CFF1FC466B01}
+		{F0E02B70-F6F7-F5EE-E359-7938BC12C8CC} = {7FEEFE54-1A53-73F6-3196-9F247C051ABE}
+		{9DE56B3C-494B-4BD8-A2C9-81FD20C7656D} = {F0E02B70-F6F7-F5EE-E359-7938BC12C8CC}
+	EndGlobalSection
+EndGlobal

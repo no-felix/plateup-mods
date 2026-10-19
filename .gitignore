@@ -1,0 +1,8 @@
+.tools/
+**/bin/
+**/obj/
+artifacts/
+Local.Build.props
+.vs/
+.idea/
+AGENTS.md

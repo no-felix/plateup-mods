@@ -1,0 +1,22 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <TargetFramework>net472</TargetFramework>
+    <AssemblyName>KitchenRefillContainers</AssemblyName>
+    <RootNamespace>KitchenRefillContainers</RootNamespace>
+    <Version>0.1.3</Version>
+    <Authors>Felix</Authors>
+    <Description>Refill empty portioning containers using the normal combine interaction.</Description>
+    <!-- Compile against the framework shipped with the game, without a NuGet targeting pack. -->
+    <AutomaticallyUseReferenceAssemblyPackages>false</AutomaticallyUseReferenceAssemblyPackages>
+    <FrameworkPathOverride>$(GameManagedDir)</FrameworkPathOverride>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Kitchen.Common;Kitchen.GameData;KitchenMods;Unity.Entities;Unity.Collections;UnityEngine.CoreModule">
+      <HintPath>$(GameManagedDir)\%(Identity).dll</HintPath>
+      <Private>false</Private>
+    </Reference>
+  </ItemGroup>
+  <Target Name="CheckGameDirectory" BeforeTargets="ResolveReferences">
+    <Error Condition="!Exists('$(GameManagedDir)\Kitchen.Common.dll')" Text="PlateUp assemblies not found. Set PlateUpDir to the folder containing PlateUp.exe in Local.Build.props or with -p:PlateUpDir=..." />
+  </Target>
+</Project>

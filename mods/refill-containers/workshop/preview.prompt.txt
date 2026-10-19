@@ -1,0 +1,13 @@
+Generated with the built-in ImageGen tool.
+
+Use case: illustration-story.
+Asset type: Steam Workshop cover image for a PlateUp! gameplay mod, landscape 16:9, 1600x900 or higher.
+Create a very simple, friendly, hand-drawn illustration for the mod "Refill Containers".
+Reference image 1 shows PlateUp's blue taco trays in their metal dispenser. Use only the shape and cornflower-blue color of ONE removable plastic taco tray as the object reference; do not draw the dispenser or a stack. Reference image 2 shows a PlateUp taco; use its recognizable golden shell, brown mince, green lettuce and red tomato as a visual reference.
+Composition: warm off-white paper background, ample negative space. Two large blue taco trays in a soft three-quarter view: one holding four tacos, the other completely empty. A pair of small loose curved pencil arrows between them communicates transferring food and returning the empty tray. Keep the composition clean and readable at thumbnail size.
+Style: naturally hand-drawn ink outlines with a little wobble, flat gouache or colored-pencil fills, subtle paper texture. Homemade and relaxed, not glossy, photorealistic, vector-perfect or elaborate. No characters, kitchen background, sparkles, badges or extra objects.
+Text: exactly "Refill Containers" in clear, casual dark hand-lettering near the top. No subtitle, other text, logos or watermark. The tray should look like the recognizable slotted blue PlateUp tray, not a gray metal baking sheet.
+
+Visual references, not redistributed in this repository:
+https://wiki.plateupgame.com/appliances/tacotrays.png
+https://wiki.plateupgame.com/recipes/tacos.png
